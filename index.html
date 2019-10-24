@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Shawn Mendes Quiz</title>
+
+  <!-- Bootstrap CSS local file -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+
+  <!-- Bootstrap WANTS this container class -->
+  <div class="container">
+
+    <h1 class="pt-3 pb-2 pl-4 col-lg-8">Oh, So You're A Shawn Mendes Fan? Prove It.</h1>
+    <!-- Bootstrap classes for margin & padding are explained here:
+         https://getbootstrap.com/docs/4.3/utilities/spacing/
+        -->
+
+
+      <div class="col">
+
+        <div class="col-lg-8">
+        <p>You might say you love Shawn Mendes, but how much do you KNOW Shawn Mendes? Well, you've come to the perfect place. Test your knowledge HERE, using information from his <a href="https://en.wikipedia.org/wiki/Shawn_Mendes"> Wikipedia page</a>.</p>
+        </div>
+
+      <div class="col-md-6">
+        <form>
+
+          <div class="form-group">
+          <label class="form-control-label">What country is Shawn Mendes from?</label>
+          </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="homeland" value="England"> England</label>
+            </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="homeland" value="Spain"> Spain</label>
+            </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="homeland" value="Canada"> Canada</label>
+            </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="homeland" value="USA"> USA</label>
+            </div><!-- form group -->
+
+
+          <div class="form-group">
+          <label class="form-control-label" for="platforms">Which platform did Shawn Mendes gain his original claim to fame?</label>
+            <select class="form-control" name="platforms" id="platforms">
+              <option value="snapchat">Snapchat</option>
+              <option value="twitter">Twitter</option>
+              <option value="instagram">Instagram</option>
+              <option value="vine">Vine</option>
+              <option value="linkedIn">LinkedIn</option>
+              <option value="facebook">Facebook</option></select>
+          </div><!-- form group -->
+
+
+          <div class="form-group">
+          <label class="form-control-label" for="firstAlbumName">What was his debut album?</label>
+            <input class="form-control" type="text" name="firstAlbum" id="firstAlbumName" placeholder="30 characters or less" maxlength="30">
+          </div><!-- form group -->
+
+          <div class="form-group">
+          <label class="form-control-label" for="recentAlbumName">What album did he release in 2018?</label>
+            <input class="form-control" type="text" name="recentAlbum" id="recentAlbumName" placeholder="30 characters or less" maxlength="30">
+          </div><!-- form group -->
+
+
+          <div class="form-group">
+          <label class="form-check-label">Which songs are on his album "Illuminate"?</label>
+          </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" name="song" value="treatYouBetter">Treat You Better</label>
+            </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" name="song" value="stitches">Stitches</label>
+            </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" name="song" value="mercy">Mercy</label>
+            </div><!-- form group -->
+
+            <div class="form-group pl-4">
+            <label class="form-check-label"><input class="form-check-input" type="checkbox" name="song" value="lostInJapan">Lost in Japan</label>
+            </div><!-- form group -->
+
+
+          <div class="form-group">
+          <label class="form-control-label" for="scamOrNot">Who is he currently dating, and why are they controversial?</label>
+            <textarea class="form-control" name="cabelloControversey" rows="7" id="scamOrNot" placeholder="Let's hear your reasoning."></textarea>
+          </div><!-- form group -->
+
+
+          <div class="form-group">
+          <label class="form-control-label"><input class="btn btn-primary" type="submit" value="Submit"></label>
+          <label class="form-control-label"><input class="btn btn-danger" type="reset" value="Start Over"></label>
+          </div><!-- form group -->
+
+        </form>
+
+      </div><!-- end col -->
+
+      </div><!-- end row -->
+
+
+
+  </div><!-- end container -->
+
+
+</body>
+</html>
